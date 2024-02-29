@@ -1,0 +1,20 @@
+.kidszone{
+    color: brown;
+}
+.gallery{
+    display: inline-block;
+    border: 6px solid rgb(180, 167, 167);
+    margin: 5px;
+}
+.gallery .descrpition{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 8px solid orange;
+}
+.heading{
+    text-align: center;
+    text-decoration: wavy;
+    
+}
