@@ -1,0 +1,58 @@
+.kidszone{
+    color: brown;
+}
+.gallery{
+    display: inline-block;
+    border: 6px solid rgb(180, 167, 167);
+    margin: 5px;
+}
+.gallery .descrpition{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 8px solid orange;
+}
+.heading{
+    text-align: center;
+    text-decoration: wavy;
+    
+}
+#header{
+    height: 100px;
+    width:100%;
+    background-color:#E9FF70;
+    position:fixed;
+    top:0px;
+    margin-left: 0px;
+    
+    
+}
+#logo{
+    background-image:url("logo.jpg");
+    width:20%;
+    background-size: contain;
+    height:100px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin-right: 50px;
+}
+.j{
+    display: flex;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+}
+#footer{
+   
+    height: 35px;
+    text-align: center;
+    background-color: #E9FF70;
+    color: #00bac6;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
