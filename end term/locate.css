@@ -1,0 +1,64 @@
+#header{
+    height: 100px;
+    width:100%;
+    background-color:#E9FF70;
+    position:fixed;
+    top:0px;
+    margin-left: 0px;
+    border: radius 25px;
+    z-index: 2;
+    
+    
+    
+}
+#logo{
+    background-image:url("logo.jpg");
+    width:20%;
+    background-size: contain;
+    height:100px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin-right: 50px;
+}
+.j{
+    display: flex;
+    display: inline-block;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration:none;
+}
+
+#map{
+    background-image: url("map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 400px;
+    
+}
+#inner{
+    height: 300px;
+    width: 500px;
+    margin-left: 80px;
+    z-index: 1;
+    
+    font-size: 60px;
+    
+}
+body{
+    background-color:rgba(255, 183, 0, 0.66) ;
+}
+#foo{
+    background-color: #E9FF70;
+    color: black;
+    text-align: center;
+    height: 25px;
+    
+    
+}

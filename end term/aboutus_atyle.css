@@ -1,0 +1,88 @@
+
+#header{
+    height: 100px;
+    width:100%;
+    background-color:#E9FF70;
+    position:fixed;
+    top:0px;
+    margin-left: 0px;
+    border: radius 25px;
+    z-index: 2;
+    
+    
+    
+}
+#logo{
+    background-image:url("logo.jpg");
+    width:20%;
+    background-size: contain;
+    height:100px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin-right: 50px;
+}
+.j{
+    display: flex;
+    display: inline-block;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration:none;
+}
+
+#box1{
+    width:55%;
+    height: 500px;
+    display:inline-block;
+    background-image: url("about.png");
+    background-size: contain;
+    padding-top: 50px;
+
+}
+.box2{
+    width:40%;
+    height: 400px;
+    display:inline-block;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 25px;
+    
+
+}
+p{
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-wrap:balance;
+}
+#box2{
+    width:55%;
+    height: 500px;
+    display: inline-block;
+    background-image: url("what_do.png");
+    background-size: contain;
+    padding-top: 50px;
+
+}
+#box3{
+    width:55%;
+    height: 500px;
+    display: inline-block;
+    background-image: url("how.png");
+    background-size: contain;
+    padding-top: 50px;
+
+}
+#footer{
+   
+    height: 35px;
+    text-align: center;
+    background-color: #E9FF70;
+    color: #00bac6;
+    width: 100%;
+}
+
+
